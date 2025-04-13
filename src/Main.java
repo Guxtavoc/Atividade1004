@@ -1,7 +1,7 @@
 public class Main {
 	public static void main(String[] args) {
 		int f = 0,op=99; //Controla o numero de funcionarios;Controla a opção
-		Funcionario[] equipe = new Funcionario[2];
+		Funcionario[] equipe = new Funcionario[10];
 		do {
 			System.out.printf("Digite a opção que deseja\n1 - Cadastro de funcionarios\n2 - Atualização Cadastral\n3 - Exclusão de cadastro\n4 - Exibir Funcionarios cadastrados\n0 - Sair");
 			op = Teclado.lerInteiro("");
